@@ -1,0 +1,56 @@
+BIOPAZ – Biodiversidad de La Paz
+Proyecto: AppMovil_RedesNeuronales
+
+INFORMACIÓN DEL PROYECTO
+------------------------
+Aplicación móvil desarrollada en Flutter para el reconocimiento de biodiversidad y consulta de información de seguridad y primeros auxilios en actividades de ecoturismo en La Paz.
+
+ENTORNO DE DESARROLLO
+---------------------
+- Flutter: 3.47.0
+- Dart: 3.13.0
+- Editor: Visual Studio Code o Google Antigravity (se puede usar cualquiera)
+- Proyecto desarrollado y probado principalmente en Android.
+- El proyecto también puede ejecutarse en Chrome, aunque algunas funciones, como la base de datos SQLite, están orientadas principalmente a Android.
+
+PARA ABRIR EL PROYECTO
+----------------------
+1. Abrir la carpeta "app_biodiversidad" en Visual Studio Code.
+2. Abrir una terminal dentro del proyecto.
+3. Ejecutar:
+
+flutter pub get
+
+4. Conectar un dispositivo Android con la depuración USB activada.
+5. Ejecutar:
+
+flutter run
+
+NOTA:
+Las carpetas "build" y ".dart_tool" no están incluidas en esta copia porque son archivos generados automáticamente por Flutter. Se vuelven a crear al preparar y ejecutar el proyecto.
+
+BASE DE DATOS
+-------------
+La base de datos utilizada por la aplicación se encuentra en:
+
+assets/database/biopaz.db
+
+La base de datos contiene la información de las especies y los registros relacionados con primeros auxilios.
+
+ESTADO ACTUAL
+-------------
+La aplicación puede ejecutarse en Android.
+
+La Biblioteca de especies carga correctamente la información almacenada en la base de datos.
+
+La pantalla de Primeros Auxilios actualmente muestra información de ejemplo y queda pendiente conectarla con los datos correspondientes de la base de datos existente.
+
+El proyecto contiene las diferentes pantallas, recursos, base de datos y configuración desarrollados hasta el momento.
+
+IMPORTANTE
+----------
+No eliminar ni reemplazar la base de datos existente sin realizar previamente una copia de seguridad.
+
+La aplicación debe continuar desarrollándose sobre este proyecto y conservar el diseño, colores y estructura actuales de BioPaz.
+
+Esta carpeta corresponde a una copia preparada para continuar el desarrollo del proyecto.
